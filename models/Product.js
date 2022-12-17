@@ -29,7 +29,7 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
-      isInteger: true,
+      isNumeric: true,
     },
     category_id: {
       type: DataTypes.INTEGER,
